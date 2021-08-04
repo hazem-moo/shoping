@@ -1,0 +1,56 @@
+.about {
+    margin-top: 35px;
+}
+.about h2 {
+    color: brown;
+    text-transform: capitalize;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+.about .under-line {
+    width: 82px;
+    background-color: brown;
+    height: 3px;
+    margin-bottom: 30px;
+}
+
+.about h5 {
+    color: brown;
+}
+.about p {
+    padding: 10px;
+    color: #666;
+}
+
+.about .card {
+    margin-bottom: 20px;
+}
+.about .card-img {
+    width: 20%;
+    display: inline-block;
+    margin-top: 22px;
+    transition: 1s all ease-in-out;
+}
+.about .card .card-img:hover {
+    animation: move 2s linear  infinite;
+}
+
+@keyframes move {
+    from {
+        transform: rotateY(180deg);
+    }
+    to {
+        transform: rotateY( -180deg );
+
+    }
+}
+
+.about .card h4 {
+    color: brown;
+    padding: 15px;
+}
+
+.about .card p {
+    margin: 10px 0 15px;
+}
