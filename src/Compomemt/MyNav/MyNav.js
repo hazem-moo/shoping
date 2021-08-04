@@ -20,16 +20,16 @@ const MyNav = () => {
             <Collapse isOpen={isOpen} navbar>
                 <Nav className='mx-auto' navbar>
                     <NavItem>
-                        <NavLink tag={scroll} className='red blue black green' exact to='Home' > home </NavLink>
+                        <NavLink tag={scroll} onClick={ toggle } className='red blue black green' exact to='Home' > home </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink tag={scroll} className='red blue black green' to='Shop' smooth={true} duration={ 800 }> shop </NavLink>
+                        <NavLink tag={scroll} onClick={ toggle } className='red blue black green' to='Shop' smooth={true} duration={ 800 }> shop </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink tag={scroll} className='red blue black green' to='About'smooth={true} duration={ 800 }> about us </NavLink>
+                        <NavLink tag={scroll} onClick={ toggle } className='red blue black green' to='About'smooth={true} duration={ 800 }> about us </NavLink>
                     </NavItem>
                         <NavItem>
-                        <NavLink tag={scroll} className='red blue black green' to='/Contact' smooth={true} duration={ 800 }> contact </NavLink>
+                        <NavLink tag={scroll} onClick={ toggle } className='red blue black green' to='/Contact' smooth={true} duration={ 800 }> contact </NavLink>
                     </NavItem>
                 </Nav>
                 </Collapse>
